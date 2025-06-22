@@ -22,3 +22,13 @@ float calCelcius(uint32_t adc_raw){
 	float temp = 125-(vol/0.017); //Because 1.7V = 25C => 0.017V per Celcius
 	return temp;
 }
+
+/*
+How to use this function in main()
+	sensor_value = adc_read();//calCelcius();
+	float temp=calCelcius(sensor_value);
+	char buff[50]={0};
+	int tempC_int = (int)temp;
+	uint8_t tempC_frac = (int)((temp - tempC_int) * 100);  // 2 decimal digits
+	sprintf(buff, "Sensor value: %d.%d Celcius\n\r", tempC_int,tempC_frac);
+*/
