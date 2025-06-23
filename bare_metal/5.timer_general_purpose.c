@@ -15,7 +15,7 @@
 
 void tim2_1hz_init(void){
 
-	//Enable clock access tim2, 16 or 32bit
+	//Enable clock access tim2, 16bit
 	RCC->APB1ENR |= RCC_APB1ENR_TIM2EN;
 
 	//Set prescale value
