@@ -5,9 +5,9 @@
  * There are many timer TIM2->TIM11 connect to difference bus (APB1 or APB2)
  * Each timer have 1->4 channels
  *
- *  				        (Prescaler) * (Period)
+ *  			(Prescaler) * (Period)
  * 	Update event =	_______________________
- * 					        System clock (32MHz HSI)
+ * 			System clock (32MHz HSI)
  *
  * */
 
