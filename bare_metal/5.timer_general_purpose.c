@@ -22,7 +22,7 @@ void tim2_1hz_init(void){
 	TIM2->PSC = 32000; // 32.000 x 1.000 = 32.000.000 x 1s
 
 	//Set auto-reload value max 2^16 (p.479/911)
-	TIM2->ARR = 2000;
+	TIM2->ARR = 1000;
 
 	//Clear counter
 	TIM2->CNT = 0;
