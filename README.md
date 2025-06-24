@@ -1,5 +1,5 @@
 # Embedded system on stm32L152RE
-## This project follow Udemy course [Embedded Systems Bare-Metal Programming Ground Up™ (STM32)]("https://www.udemy.com/course/embedded-systems-bare-metal-programming/")
+## This project follow Udemy course ["Embedded Systems Bare-Metal Programming Ground Up™ (STM32)"]("https://www.udemy.com/course/embedded-systems-bare-metal-programming/")
 - 0_2xLED_toggle
 - 1_SystemClock_HSI_32MHz
 - 2_UART2
