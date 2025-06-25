@@ -15,3 +15,4 @@ I chose the **STM32L152RE** to practice because this board has similar functiona
   - `4.1_KY_013_Analog_Temperature_Sensor`
 - `5_timer_over_load`
   - `5.1_timer_output_toggle_compare`
+  - `5.2_timer_input_capture`
