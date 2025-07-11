@@ -44,4 +44,9 @@ void gpioa_init(uint8_t pin, unsigned char mode, unsigned char status);
 int am2302Request(uint8_t *array);
 void am2302ShowUart2(uint8_t* am2302);
 
+void I2C1_burstWrite(char saddr, char maddr, int n, char* data);
+void I2C1_bursRead(char saddr, char maddr, int n, char *data);
+void I2C1_read(char saddr, char maddr, char* data);
+void i2c1_init(void);
+
 #endif /* INCLUDE_H_ */
